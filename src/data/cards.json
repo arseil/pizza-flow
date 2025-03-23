@@ -1,0 +1,66 @@
+{
+    "nodes": [
+        {
+            "id": "carousel-1",
+            "type": "carouselCardContainer",
+            "position": {
+                "x": 600,
+                "y": 100
+            },
+            "data": {
+                "nodes": [
+                    {
+                        "id": "card-1",
+                        "type": "carouselCard",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "data": {
+                            "title": "Margherita",
+                            "description": "Classic Italian pizza with fresh tomatoes, mozzarella, and basil"
+                        }
+                    },
+                    {
+                        "id": "card-2",
+                        "type": "carouselCard",
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "data": {
+                            "title": "Pepperoni",
+                            "description": "American favorite with spicy pepperoni, melted cheese, and tomato sauce"
+                        }
+                    }
+                ]
+            },
+            "width": 756,
+            "height": 615
+        },
+        {
+            "id": "2",
+            "type": "richCard",
+            "position": {
+                "x": 100,
+                "y": 120
+            },
+            "data": {
+                "title": "Four cheese",
+                "description": "Classic Italian pizza with four cheeses",
+                "actions": []
+            },
+            "width": 350,
+            "height": 615,
+            "selected": true,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1-2",
+            "source": "carousel-1",
+            "target": "2"
+        }
+    ]
+}
